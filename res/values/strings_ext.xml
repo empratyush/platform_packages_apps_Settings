@@ -223,4 +223,14 @@ This method can be particularly useful when GNSS is unavailable or unreliable, s
     <string name="network_location_enabled_apple_server">Apple server</string>
     <string name="network_location_disabled">Off</string>
 
+    <string name="geocoding_title">Geocoding Provider</string>
+     <string name="geocoding_footer">
+ "Geocoding is the process of converting a text-based description of a location into geographic coordinates and vice versa many apps relies on geocoding provider. 
+ (Powered by the open-source Nominatim database, built on OpenStreetMap)
+ "
+     </string>
+     <string name="geocoding_enabled_grapheneos_proxy">GrapheneOS proxy</string>
+     <string name="geocoding_enabled_nominatim_server">Nominatim server</string>
+     <string name="geocoding_disabled">Off</string>    
+
 </resources>
