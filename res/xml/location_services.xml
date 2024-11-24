@@ -34,4 +34,10 @@
             android:title="@string/location_scanning_bluetooth_always_scanning_title"
             settings:controller="com.android.settings.location.LocationServicesBluetoothScanningPreferenceController"/>
 
+        <com.android.settingslib.RestrictedPreference
+            android:order="1004"
+            android:key="location_services_geocoding"
+            android:title="@string/geocoding_title"
+            settings:controller="com.android.settings.location.GeocodingPreferenceController"/>
+
 </PreferenceScreen>

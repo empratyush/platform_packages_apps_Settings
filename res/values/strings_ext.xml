@@ -208,4 +208,14 @@ Duress PIN works the same way duress password does."</string>
     <string name="alt_touchscreen_mode_confirm_message">Confirm that the touchscreen is working. Without confirmation, alternative touchscreen mode will be disabled after several seconds.</string>
     <string name="alt_touchscreen_mode_confirm_button">Confirm</string>
 
+    <string name="geocoding_title">Geocoding Provider</string>
+    <string name="geocoding_footer">
+"Geocoding is the process of converting a text-based description of a location into geographic coordinates and vice versa many apps relies on geocoding provider. 
+(Powered by the open-source Nominatim database, built on OpenStreetMap)
+"
+    </string>
+    <string name="geocoding_enabled_grapheneos_proxy">GrapheneOS proxy</string>
+    <string name="geocoding_enabled_nominatim_server">Nominatim server</string>
+    <string name="geocoding_disabled">Off</string>
+
 </resources>
