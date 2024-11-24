@@ -208,4 +208,10 @@ Duress PIN works the same way duress password does."</string>
     <string name="alt_touchscreen_mode_confirm_message">Confirm that the touchscreen is working. Without confirmation, alternative touchscreen mode will be disabled after several seconds.</string>
     <string name="alt_touchscreen_mode_confirm_button">Confirm</string>
 
+    <string name="geocoding_title">Geocoding Provider</string>
+    <string name="geocoding_footer">stub [replace it with proper description]</string>
+    <string name="geocoding_enabled_grapheneos_proxy">GrapheneOS proxy</string>
+    <string name="geocoding_enabled_nominatim_server">Nominatim server</string>
+    <string name="geocoding_disabled">Off</string>
+
 </resources>
