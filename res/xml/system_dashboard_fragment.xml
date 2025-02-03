@@ -112,6 +112,18 @@
         settings:controller="com.android.settings.system.DeviceDiagnosticsPreferenceController"/>
 
     <Preference
+        android:title="@string/repair_mode_title"
+        android:key="repair_mode_settings"
+        android:order="-34"
+        android:summary="@string/repair_mode_summary"
+        android:icon="@drawable/ic_repair_mode"
+        settings:controller="com.android.settings.repairmode.RepairModePreferenceController">
+        <intent
+            android:targetPackage="app.grapheneos.repairmode"
+            android:action="app.grapheneos.intent.action.REPAIR_MODE_SETTINGS"/>
+    </Preference>
+
+    <Preference
         android:key="reset_dashboard"
         android:title="@string/reset_dashboard_title"
         android:icon="@drawable/ic_restore"
